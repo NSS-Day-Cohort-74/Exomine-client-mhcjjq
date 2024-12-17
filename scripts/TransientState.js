@@ -1,9 +1,22 @@
-const state = {
+const transientState = new Map()
 
+const resetTransientState = () => {
+    transientState.set("id", 0)
+    transientState.set("governorId", 0)
+    transientState.set("colonyId", 0)
+    transientState.set("mineralId", 0)
+    transientState.set("facilityId", 0)
 }
 
-export const setFacility = (facilityId) => {
-    state.selectedFacility = facilityId
+resetTransientState()
+
+// export const setFacility = (facilityId) => {
+//     state.selectedFacility = facilityId
+//     document.dispatchEvent(new CustomEvent("stateChanged"))
+// }
+
+export const setTransientState = (propertyType, stateId) => {
+    transientState.set(propertyType, stateId)
     document.dispatchEvent(new CustomEvent("stateChanged"))
 }
 
