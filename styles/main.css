@@ -39,16 +39,19 @@ body {
     color: #7df222;
     background: black;
     box-shadow: 0 0 20px #7df222;
+    padding: 10px;
 }
 
 #governor {
     background: black;
     color: #7df222;
     box-shadow: 0 0 20px #7df222;
+    padding: 10px;
 }
 
 #facility {
     background: black;
     color: #7df222;
     box-shadow: 0 0 20px #7df222;
+    padding: 10px;
 }
