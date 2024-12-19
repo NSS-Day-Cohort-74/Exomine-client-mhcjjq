@@ -21,18 +21,22 @@ body {
     margin: 50px;
     padding: 50px;
     border: 1px dashed #7df222;
+    width: 500px;
+    justify-items: center;
 }
 
 .colonies_list {
     border: 1px dashed #7df222;
     padding: 50px;
     margin: 30px;
+    justify-items: center;
 }
 
 .cart {
     margin: 50px;
     padding: 50px;
     border: 1px dashed #7df222;
+    justify-items: center;
 }
 
 #purchasebutton {

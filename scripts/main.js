@@ -24,7 +24,6 @@ const render = async () => {
             ${governorListHTML}
         </article>
         <article class="colonies_list options">
-            <h2>Colony Minerals</h2>
             ${colonyMineralsHTML}
         </article>
         <article class="choices_facility options">
@@ -35,7 +34,6 @@ const render = async () => {
 
       <section class="display">
         <article class="choices_mineral options">
-            <h3>Facility Minerals</h3>
             ${facilityMineralsHTML}
         </article>
         <article class="cart">
