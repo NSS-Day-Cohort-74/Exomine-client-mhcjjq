@@ -1,0 +1,107 @@
+body {
+    font-family: "Courier New", monospace;
+    color: #7df222;
+    background: black;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 15px;
+}
+
+#title {
+    font-size: 40px;
+    margin-left: 1em;
+}
+
+.choices {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.options {
+    margin: 20px;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+}
+
+.choices_mineral {
+    margin: 50px;
+    padding: 50px;
+    border: 1px solid #7df222;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #7df222;
+    justify-items: center;
+    width: 600px;
+}
+
+.colonies_list {
+    border: 1px solid #7df222;
+    padding: 50px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #7df222;
+    justify-items: center;
+}
+
+.cart {
+    margin: 50px;
+    padding: 50px;
+    border: 1px solid #7df222;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #7df222;
+    justify-items: center;
+    width: 600px;
+}
+
+#purchasebutton {
+    color: #7df222;
+    background: black;
+    box-shadow: 0 0 20px #7df222;
+    padding: 5px;
+    margin: 20px;
+}
+
+#addToCartButton {
+    color: #7df222;
+    background: black;
+    box-shadow: 0 0 20px #7df222;
+    padding: 5px;
+    margin: 20px;
+}
+
+#governor {
+    background: black;
+    color: #7df222;
+    box-shadow: 0 0 20px #7df222;
+    margin: 15px;
+}
+
+#facility {
+    background: black;
+    color: #7df222;
+    box-shadow: 0 0 20px #7df222;
+    margin: 15px;
+}
+
+#gov__img {
+    max-width: 400px;
+    max-height: 200px;
+    box-shadow: 0 0 30px #7df222;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 30px;
+}
+
+#facility__img {
+    max-height: 250px;
+    max-width: 400px;
+    box-shadow: 0 0 30px #7df222;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 30px;
+}
